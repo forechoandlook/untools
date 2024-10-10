@@ -10,3 +10,7 @@ test:
 clean:
 	@echo "Cleaning up..."
 	@rm -rf ./build/*
+
+syncc:
+	@echo "Syncing code between c and python..."
+	@python3 help.py
